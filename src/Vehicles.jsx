@@ -1,5 +1,5 @@
 import './css/Vehicles.css'
-import './css/about.css'
+import './css/About.css'
 import { useNavigate } from 'react-router-dom'
 
 export default function Vehicles(){
