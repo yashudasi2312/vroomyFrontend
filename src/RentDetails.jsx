@@ -38,7 +38,7 @@ export default function RentDetails() {
             }
         });
 
-        // 👇 ensure at least 1.5 sec loading
+
         const elapsed = Date.now() - start;
         const delay = Math.max(1500 - elapsed, 0);
         await new Promise(res => setTimeout(res, delay));
