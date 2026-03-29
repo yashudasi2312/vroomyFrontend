@@ -1,4 +1,4 @@
-import './css/vehicles.css'
+import './css/Vehicles.css'
 import './css/about.css'
 import { useNavigate } from 'react-router-dom'
 
