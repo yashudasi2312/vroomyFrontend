@@ -1,0 +1,102 @@
+.my-rentals {
+    padding: 3vh 4vw;
+    min-height: 100vh;
+    background-color: #f5f7fa;
+}
+
+.my-rentals h2 {
+    font-size: 2rem;
+    margin-bottom: 2vh;
+    color: #333;
+}
+
+.no-rentals {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+.rental-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 2vw;
+    margin-bottom: 2vh;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.rental-card:hover {
+    box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+
+
+.rental-info h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: #222;
+}
+
+.price {
+    margin-top: 0.5vh;
+    color: #555;
+    font-weight: 500;
+}
+
+
+.rental-actions {
+    display: flex;
+    gap: 1vw;
+}
+
+button {
+    padding: 0.8vh 1.5vw;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+
+.complete-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.complete-btn:hover {
+    background-color: #43a047;
+}
+
+
+.cancel-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.cancel-btn:hover {
+    background-color: #d32f2f;
+}
+
+.pagination {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.pagination button {
+    padding: 0.7vh 1.2vw;
+    border: none;
+    border-radius: 6px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
